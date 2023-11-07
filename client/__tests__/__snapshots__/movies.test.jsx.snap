@@ -5,7 +5,6 @@ exports[`movies application matches snapshot 1`] = `
   <h1>
     List movies!
   </h1>
-  ;
   <ul>
     <li>
       Movie 1
@@ -21,4 +20,36 @@ exports[`movies application renders correctly 1`] = `
 <h1>
   Hello world!
 </h1>
+`;
+
+exports[`movies application show new movie form 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h1>
+    Add new movie
+  </h1>
+  <div>
+    Title: 
+    <input
+      data-testid="title"
+      type="text"
+    />
+  </div>
+  <div>
+    Year: 
+    <input
+      data-testid="year"
+      type="text"
+    />
+  </div>
+  <div>
+    Plot:
+    <div>
+      <textarea
+        data-testid="plot"
+      />
+    </div>
+  </div>
+</form>
 `;
