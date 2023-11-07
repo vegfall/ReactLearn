@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`movies application matches snapshot 1`] = `
+<h1>
+  List movies!
+</h1>
+`;
+
+exports[`movies application renders correctly 1`] = `
+<h1>
+  Hello world!
+</h1>
+`;

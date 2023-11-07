@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import {ListMovies} from "./application";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-function Application() {
-    return <h1>List movies!</h1>;
-}
-
-root.render(<Application/>);
+root.render(<ListMovies/>);
