@@ -1,6 +1,12 @@
 {
-  "name": "ReactLearn",
+  "name": "reactlearn",
   "version": "1.0.0",
-  "dependencies": {
-  }
+  "main": "index.js",
+  "scripts": {
+    "test": "cd client && npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
