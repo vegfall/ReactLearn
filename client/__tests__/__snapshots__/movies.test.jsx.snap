@@ -33,14 +33,18 @@ exports[`movies application show new movie form 1`] = `
     Title: 
     <input
       data-testid="title"
+      onChange={[Function]}
       type="text"
+      value=""
     />
   </div>
   <div>
     Year: 
     <input
       data-testid="year"
+      onChange={[Function]}
       type="text"
+      value=""
     />
   </div>
   <div>
@@ -48,6 +52,8 @@ exports[`movies application show new movie form 1`] = `
     <div>
       <textarea
         data-testid="plot"
+        onChange={[Function]}
+        value=""
       />
     </div>
   </div>
