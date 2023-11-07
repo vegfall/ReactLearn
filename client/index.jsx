@@ -3,4 +3,8 @@ import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<h1>Hello world!</h1>);
+function Application() {
+    return <h1>List movies!</h1>;
+}
+
+root.render(<Application/>);
